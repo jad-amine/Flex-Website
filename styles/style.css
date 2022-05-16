@@ -252,3 +252,30 @@ header #intro #first{
     border-bottom: 1px solid #18ea19;
     text-decoration: none;
 }
+
+.RP{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.RP p:first-of-type{
+    text-align: center;
+    max-width: 650px;
+    font-size: 28px;
+}
+
+.RP p:last-of-type{
+    max-width: 800px;
+    font-size: 20px;
+}
+
+.RP img:first-of-type{
+    width: 85%;
+}
+
+.RP img:last-of-type{
+    margin-top: 20px;
+    width: 58%;
+}
