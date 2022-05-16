@@ -140,3 +140,79 @@ header #intro #first{
     border-bottom: 1px solid #18ea19;
     text-decoration: none;
 }
+
+.programs{
+    background-color: #0d0;
+    margin-top: 40px;
+    height: 620px;
+}
+
+.programs > p{
+    font-size: 40px;
+    line-height: 1.1em;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.career{
+    display: flex;
+    justify-content: center; 
+    margin-top: -40px;    
+}
+
+.career a{
+    text-decoration: none;
+    color: black;
+}
+
+.career h2{
+    line-height: 1.2em;
+}
+
+.career a p{
+    opacity: 0.7;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+}
+
+.career .grey{
+    color: grey;
+    font-weight: bold;
+    opacity: 0.4;
+}
+
+.programs .FSW{
+    background-color: white;
+    height: 340px;
+    max-width: 260px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.programs .FCS{
+    background-color: white;
+    height: 340px;
+    width: 260px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.programs .last-p{
+    margin-top: 30px;
+    opacity: 1;
+}
+
+.career .FSW{
+    box-shadow: 6px 6px 4px 3px rgb(27, 27, 13);
+}
+
+.career .FCS{
+    box-shadow: 6px 6px 4px 4px rgb(66, 66, 66);
+}
