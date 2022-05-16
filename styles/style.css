@@ -87,3 +87,20 @@ header #intro #first{
 }
 
 
+.numbers{
+    text-align: center;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers .number{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0e0;
+}
+
+.numbers p{
+    font-weight: bold;
+    font-size: 25px;
+}
