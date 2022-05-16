@@ -216,3 +216,39 @@ header #intro #first{
 .career .FCS{
     box-shadow: 6px 6px 4px 4px rgb(66, 66, 66);
 }
+
+.graduate{
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.graduate img{
+    margin-left: 8%;
+    height: 350px;
+    width: 530px;
+}
+
+.graduate div {
+    margin-left: 25px;
+    margin-top: -30px;
+}
+
+.graduate div p:last-of-type {
+    max-width: 70%;
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.graduate .skills {
+    font-size: 45px;
+}
+
+.graduate a{
+    margin-top: -20px;
+    color: #18ea19;
+    font-size: 20px;
+    border-bottom: 1px solid #18ea19;
+    text-decoration: none;
+}
